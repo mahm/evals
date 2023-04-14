@@ -1,0 +1,8 @@
+japanese-char-sorting:
+  id: japanese-char-sorting.test.v1
+  metrics:
+  - accuracy
+japanese-char-sorting.test.v1:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: japanese-char-sorting/samples.jsonl
